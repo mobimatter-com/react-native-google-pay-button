@@ -1,3 +1,5 @@
+
+// @ts-ignore
 import React from 'react';
 import {
   requireNativeComponent,
@@ -11,32 +13,6 @@ const LINKING_ERROR =
   Platform.select({ ios: "- You have run 'pod install'\n", default: '' }) +
   '- You rebuilt the app after installing the package\n' +
   '- You are not using Expo Go\n';
-
-
-//   case 0:
-//     return LayoutInflater.from(reactContext).inflate(
-//         R.layout.buy_with_googlepay_button, null);
-// case 1:
-//     return LayoutInflater.from(reactContext).inflate(
-//         R.layout.book_with_googlepay_button, null);
-// case 2:
-//     return LayoutInflater.from(reactContext).inflate(
-//         R.layout.checkout_with_googlepay_button, null);
-// case 3:
-//     return LayoutInflater.from(reactContext).inflate(
-//         R.layout.donate_with_googlepay_button, null);
-// case 4:
-//     return LayoutInflater.from(reactContext).inflate(
-//         R.layout.order_with_googlepay_button, null);
-// case 5:
-//     return LayoutInflater.from(reactContext).inflate(
-//         R.layout.pay_with_googlepay_button, null);
-// case 6:
-//     return LayoutInflater.from(reactContext).inflate(
-//         R.layout.plain_googlepay_button, null);
-// case 7:
-//     return LayoutInflater.from(reactContext).inflate(
-//         R.layout.subscribe_with_googlepay_button, null);
 
 export enum GooglePayButtonType {
   BUY_WITH_GOOGLEPAY,
