@@ -1,10 +1,17 @@
 # react-native-google-pay-button
-A dead-simple Google Pay compliant button component for react native
+A dead-simple Google Pay compliant button component for react native.
+
+This is just the button component, no Gpay APIs. We recommend using [react-native-google-pay](https://github.com/sorokin0andrey/react-native-google-pay)
+
 ## Installation
 
 ```sh
 yarn add react-native-google-pay-button
 ```
+
+## Demo
+
+![button demo](/assets/demo.gif)
 
 ## Usage
 
